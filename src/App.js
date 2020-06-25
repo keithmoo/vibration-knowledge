@@ -2,7 +2,7 @@ import React from 'react';
 import Password from './Password'
 import './styles.css'
 import {Route, Switch} from 'react-router-dom'
-import MR_SCARS from './MR_SCARS'
+import MR_SCARS from './Mr_scars'
 import Cursor from './Cursor'
 import Firebrand from './Firebrand'
 import Persolus from './Persolus'
