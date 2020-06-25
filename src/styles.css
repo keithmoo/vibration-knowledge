@@ -177,6 +177,15 @@ li {
   font-size: 125%;
 }
 
+.homeList8 {
+  margin-bottom: 10px;
+}
+
+.rulesText {
+  margin-top: 1rem;
+  margin-right: 10rem;
+}
+
 .arrowPic {
   
   background-image: url('ThePhilosopher.png');

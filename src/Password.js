@@ -6,6 +6,7 @@ import Chirpy4 from './Chirpy4'
 import Chirpy5 from './Chirpy5'
 import Chirpy6 from './Chirpy6'
 import Chirpy7 from './Chirpy7'
+import Chirpy8 from './Chirpy8'
 
 
 
@@ -19,7 +20,8 @@ export default class extends React.Component {
         chirpy4: false,
         chirpy5: false,
         chirpy6: false,
-        chirpy7: false
+        chirpy7: false,
+        chirpy8: false
         
       }
     }
@@ -33,7 +35,8 @@ export default class extends React.Component {
       chirpy4: false,
       chirpy5: false,
       chirpy6: false,
-      chirpy7: false
+      chirpy7: false,
+      chirpy8: false
     })
   }
 
@@ -68,6 +71,10 @@ export default class extends React.Component {
 
     else if (pword === 'stations' || pword === 'station' || pword === 'dharma') {
       this.setState({chirpy7: true});
+    }
+
+    else if (pword === 'stats' || pword === 'preface' || pword === 'stat') {
+      this.setState({chirpy8: true});
     }
   }
    
@@ -116,6 +123,12 @@ export default class extends React.Component {
       }
     }
 
+    checkChirpy8 = () => {
+      if (this.state.chirpy8 === true){
+        return <div><Chirpy8 /></div>
+      }
+    }
+
     
     render(){
   return (
@@ -138,10 +151,11 @@ export default class extends React.Component {
       <div className='placeholder1'>
         {this.checkChirpy1()}{this.checkChirpy2()}{this.checkChirpy3()}
         {this.checkChirpy4()}{this.checkChirpy5()}{this.checkChirpy6()}
-        {this.checkChirpy7()}
+        {this.checkChirpy7()}{this.checkChirpy8()}
       </div>
       <div className='underForm'>
         <ul>
+          <li className='homeList'>Preface and Stats: 'stats'</li>
           <li className='homeList'>Gallery Of Evil: 'MManual'</li>
           <li className='homeList'>~ATH : Handbook For The Imminently Deceased: '~ATH'</li>
           <li className='homeList'>Island Ley Line Wells: 'stations'</li>
