@@ -1,3 +1,333 @@
+body {
+  background-color: gainsboro;
+}
+
+
 .tabbed {
   margin-left: 4rem;
+}
+
+.red {
+  display: inline;
+  
+  color: red;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blue {
+  display: inline;
+  
+  color: blue;
+  margin: 0px;
+  padding: 0px;
+}
+
+#red {
+  color: red;
+}
+
+#blue {
+  color: blue;
+}
+
+.line {
+  display: inline;
+  margin-right: .5rem;
+}
+
+
+#coded {
+  font-family: consolas;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+#btn {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: .5em 1em;
+  border-radius: .3em;
+  border: none;
+  cursor: pointer;
+  margin-right: .1rem;
+}
+
+#btn2 {
+  background-color: hsl(128, 82%, 35%);
+  color: white;
+  padding: .5em 1em;
+  border-radius: .3em;
+  border: none;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: hsl(200, 100%, 40%);
+}
+
+#btn2:hover {
+  background-color: hsl(128, 81%, 23%);
+}
+
+.athPage {
+  border-style: solid;
+  border-width: thin;
+  background-image: url('./ATHBackground.png');
+  width: 650px;
+  height: 371px;
+  
+
+}
+
+.GalleryFront {
+  background-image: url('./GalleryOfEvilCover.png');
+  height: 195px;
+  width: 158px;
+}
+
+
+
+.GalleryFront:hover {
+  background-image: url('./GalleryOfEvilOpen.png');
+  height: 222px;
+  width: 314px;
+}
+
+
+#dharma {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.loseThOSSymbol {
+  margin-left: -30px;
+  
+}
+
+#loseThOSSymbol {
+  cursor: pointer;
+}
+
+
+
+#templeOSSymbol {
+  width: 198px;
+  height: 248px;
+  /*396x496*/
+  cursor: pointer;
+}
+
+#hubridSymbol {
+  /* 320x515 */
+  height: 257.5px;
+  width: 160px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+#angraMainyuSymbol {
+  /*227x523*/
+  width: 114px;
+  height: 262px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#mikokoro {
+  height: 215px;
+  width: 226px;
+  cursor: pointer;
+}
+
+#atemSymbol {
+  cursor: pointer;
+}
+
+
+.RText {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  justify-content: space-around;
+}
+
+.textPart {
+  
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 60px;
+}
+
+.homeList {
+  margin-bottom: 1px;
+}
+
+#lo {
+  font-size: 125%;
+}
+
+.arrowPic {
+  
+  background-image: url('ThePhilosopher.png');
+  background-size: 396px 566px;
+  background-repeat: no-repeat;
+  height: 566px;
+  width: 396px;
+  
+}
+
+.lookingPic {
+  background-image: url('spyglass.png');
+  background-repeat: no-repeat;
+  background-size: 357px 365px;
+  height: 365px;
+  width: 357px;
+  
+}
+
+.mikokoroPic {
+  background-image: url('miko.png');
+  background-repeat: no-repeat;
+  background-size: 313px 436px;
+  height: 436px;
+  width: 313px;
+
+}
+
+.flamePic {
+  background-image: url('ifrit.png');
+  background-repeat: no-repeat;
+  background-size: 406px 426px;
+  height: 426px;
+  width: 406px;
+
+}
+
+.atemPic {
+  background-image: url('atemInner.png');
+  background-repeat: no-repeat;
+  background-size: 552px 441px;
+  height: 441px;
+  width: 552px;
+}
+
+.orlalescaPic {
+  background-image: url('orlalesca.png');
+  background-size: 671px 468px;
+  background-repeat: no-repeat;
+  height: 468px;
+  width: 671px;
+  
+}
+
+.angraPic {
+  background-image: url('angraMainyu.png');
+  background-size: 230px 399px;
+  background-repeat: no-repeat;
+  height: 399px;
+  width: 230px;
+}
+
+#yevon {
+  height: 193px;
+  width: 201px;
+  cursor: pointer;
+}
+
+.stationWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.swanPic {
+  background-image: url('valefor.png');
+  background-repeat: no-repeat;
+  background-size: 438px 328px;
+  height: 328px;
+  width: 438px;
+}
+
+.pearlPic {
+  background-image: url('hOnra.png');
+  background-repeat: no-repeat;
+  background-size: 236px 318px;
+  height: 318px;
+  width: 236px;
+}
+
+.link1 {
+  color: red;
+}
+
+.linkBase {
+  color: black;
+}
+
+.link2 {
+  color: blue;
+}
+
+.spacing {
+  height: 10px;
+
+}
+
+#previousPage {
+  
+    background-color: blue;
+    color: white;
+    padding: .5em 1em;
+    border-radius: .3em;
+    border: none;
+    cursor: pointer;
+    margin-right: .1em;
+    
+  
+}
+
+#pageTurn {
+  
+    background-color: red;
+    color: white;
+    padding: .5em 1em;
+    border-radius: .3em;
+    border: none;
+    cursor: pointer;
+    
+  
+}
+
+#pageTurn:hover{
+  background-color: darkred;
+}
+
+#previousPage:hover {
+  background-color: darkblue;
+}
+
+#pageTurn:active {
+  outline: none;
+}
+
+#previousPage:active {
+  outline: none;
+}
+
+#pageTurn:focus {
+  outline: none;
+}
+
+#previousPage:focus {
+  outline: none;
 }
