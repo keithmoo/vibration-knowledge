@@ -340,3 +340,11 @@ li {
 #previousPage:focus {
   outline: none;
 }
+
+.ihsanPic {
+  background-image: url('ihsanShade.png');
+  background-repeat: no-repeat;
+  background-size: 512px 424px;
+  height: 424px;
+  width: 512px;
+}
