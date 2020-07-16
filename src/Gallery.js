@@ -129,6 +129,7 @@ render(){
   return(
     <>
     
+    {this.display()}
     
     {this.button()}
     <Link to='/'>Home</Link>
