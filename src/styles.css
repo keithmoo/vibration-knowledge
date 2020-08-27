@@ -344,7 +344,78 @@ li {
 .ihsanPic {
   background-image: url('ihsanShade.png');
   background-repeat: no-repeat;
+  background-size: contain;
+  height: 424px;
+  width: 512px;
+  margin-right: 5%;
+}
+
+/*
+background-repeat: no-repeat;
   background-size: 512px 424px;
   height: 424px;
   width: 512px;
+*/
+
+.minion-pic {
+  background-image: url('minion.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 553px;
+  width: 691px;
+  margin-right: 5%;
+}
+
+.jewel-beast-pic {
+  background-image: url('jewelBeast.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 213px;
+  width: 240px;
+  margin-right: 5%;
+}
+
+.galleryPage {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.galleryLi li {
+  margin-bottom: 2vh;
+}
+
+.galleryLi {
+  width: 50%;
+  margin-right: 10%;
+  font-size: 1.25rem;
+
+}
+
+.homeLink {
+  font-size: 2rem;
+  color: black;
+  padding: 3px;
+  
+}
+
+.homeLink:hover {
+  color: rgb(92, 92, 92)
+}
+
+.buttonz {
+  margin-bottom: 1rem;
+}
+
+.gh3 {
+  font-size: 2rem;
+  display: flex;
+  margin-bottom: 5%;
+  justify-content: space-around;
+}
+
+.eye {
+  height: 150px;
+  width: 150px;
 }

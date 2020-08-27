@@ -116,7 +116,7 @@ export default class extends React.Component {
                 to Nessus in a procession of the damned.  Flanked by armies of hundreds of Ice Devils, 
                 in the hands of an Archfiend, The Philosopher was freed; An Archangel's doing released 
                 the man and he was spirited to heaven; the second Alchemical Wedding, The Marriage 
-                of Sun and Moon, was complete.
+                of Sun and Moon, was complete.</p>
                 <p>The Philosopher is currently neither dead nor alive; for he is beyond such concepts.  
                    He is both still here, on the island, as well as in an Upper Plane.  He has left behind 
                    his Prima Material as much as he has prevented anyone from aquiring it.  
@@ -124,7 +124,7 @@ export default class extends React.Component {
                    he obscures the process of doing so from them.
                 </p>
                
-          </p></div>
+          </div>
           
           <div className='arrowPic'></div>     
    </div>
@@ -490,7 +490,7 @@ mikokoro = () => {
             </div>
             
          <div className='station' onClick={this.togglePearl}><img src={pearl} alt='req' id='dharma' /></div>
-         <div ClassName='pearlDiv'>{this.pearl()}</div>
+         <div className='pearlDiv'>{this.pearl()}</div>
 
          <div className='station' onClick={this.toggleOrchid}><img src={orchid} alt='req' id='dharma' /></div>
          <div className='orchidDiv'>{this.orchid()}</div>
